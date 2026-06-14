@@ -27,10 +27,12 @@
   background-color: var(--bgcolor);
   justify-content: center;
   align-items: center;
-  max-width: 22rem;
+  width: 20.5rem;
+  max-width: 90%;
   padding: 2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   text-align: center;
+  gap: 1rem;
 }
 
 .card img {
@@ -38,41 +40,42 @@
   height: 70px;
   border-radius: 50%;
   margin: 1rem;
-  margin-top: -1rem;
 }
 .card h1 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 .location {
   color: var(--green);
-  font-size: 0.6rem;
+  font-size: 0.875rem;
   font-weight: 800;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .paragraph {
-  font-size: 0.65rem;
+  font-size: 0.875rem;
   font-weight: 300;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 .social-links {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  margin-bottom: -1rem;
 }
-.social-links a {
+.social-links button {
   text-decoration: none;
   background-color: var(--button);
   color: var(--white);
-  padding: 0.6rem;
+  padding: 0.9rem;
   border-radius: 0.3rem;
-  font-size: 0.65rem;
+  font-size: 0.875rem;
   font-weight: 800;
+  border: none;
 }
-.social-links a:hover {
+.social-links button:hover {
   background-color: var(--green);
   color: var(--container);
+  cursor: pointer;
 }
 
 .attribution {
